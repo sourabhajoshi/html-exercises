@@ -170,7 +170,7 @@ A paragraph always starts on a new line, and browsers automatically add some whi
 <p>Each paragraph is a separate block of text!</p>
 ```
 
-**<hr> : Horizontal Line**
+**`<hr>` : Horizontal Line**
 
 <hr> stands for Horizontal Rule. It draws a horizontal line across the web page. It is used to separate sections of content. It does not need a closing tag. (<hr> alone is enough).
 
