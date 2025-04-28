@@ -29,19 +29,19 @@ Basic structure of an HTML document
 </html>
 ```
 
-* <!DOCTYPE html> 
+* `<!DOCTYPE html> `
   Tells the browser: "Hey, this is an HTML5 document!". Without   this line, the browser might get confused and display the page wrongly. It's like telling the browser what language you're speaking. The <!DOCTYPE> declaration is not case sensitive.
 
-* <html> : 
+* `<html>` : 
   Start of the webpage. Everything you want to show or set up must be inside <html> and </html>. It's like a container for the whole page.
 
-* <head> :
+* `<head>` :
   Contains meta information about the HTML page. it include page title, link to css, link to icons
 
-* <title> : 
-  Sets the name that appears on the browser's tab. If you write <title>My Website</title>, then the browser tab will show "My Website".
+* `<title>` : 
+  Sets the name that appears on the browser's tab. If you write `<title>`My Website`</title>`, then the browser tab will show "My Website".
 
-* <body> : 
+* `<body>` : 
   Visible part of the page. Whatever you write inside <body> (headings, text, images, videos, buttons) — people can see it when they visit the site.
 
 -----
@@ -51,22 +51,22 @@ An HTML element is defined by a start tag, some content, and an end tag.
 
 Never skip the end tag, some elemets display correctly even if we forget. However, never rely on this Unexpected results and errors may occur if you forget the end tag.
 
-HTML tags are not case sensitive, <P> means the same as <p>. Recommends lowercase in HTML.
+HTML tags are not case sensitive, `<P> means the same as <p>`. Recommends lowercase in HTML.
 
 ```
 <p>Hello, world!</p>
 ```
-Think of an element like a sandwich. The top bread = start tag (<p>), The filling = content ("Hello, world!") and The bottom bread = end tag (</p>).
+Think of an element like a sandwich. The top bread = start tag (`<p>`), The filling = content ("Hello, world!") and The bottom bread = end tag (`</p>`).
 
 #### **Types of HTML Elelments**
 There are two types of html elements : Container Elements and Empty Elements.
 
 1. Container Elements : 
-  Have both a start tag and an end tag. Ex, <p>Paragraph text</p>
+  Have both a start tag and an end tag. Ex, `<p>`Paragraph text`</p>`
 
 2. Empty Elements : 
-  Only have a start tag (no content, no end tag). Ex, <img src="image.jpg" alt="Picture">
-<br> (line break), <hr> (horizontal line)
+  Only have a start tag (no content, no end tag). Ex, `<img src="image.jpg" alt="Picture">`
+`<br>` (line break), `<hr>` (horizontal line)
 
 #### **Nested HTML Elements**
  Nested means one element is placed inside another element. In HTML, when you put one element inside another, it’s called nesting.
@@ -172,7 +172,7 @@ A paragraph always starts on a new line, and browsers automatically add some whi
 
 **`<hr>` : Horizontal Line**
 
-<hr> stands for Horizontal Rule. It draws a horizontal line across the web page. It is used to separate sections of content. It does not need a closing tag. (<hr> alone is enough).
+`<hr>` stands for Horizontal Rule. It draws a horizontal line across the web page. It is used to separate sections of content. It does not need a closing tag. (<hr> alone is enough).
 
 ```
 <!-- line will appear between the two paragraphs -->
@@ -185,9 +185,9 @@ A paragraph always starts on a new line, and browsers automatically add some whi
 <p>This is the second section, separated by a line.</p>
 ```
 
-**<br> : Line Break**
+**`<br>` : Line Break**
 
-<br> stands for Break (line break). It moves the next text to a new line without starting a new paragraph. It also does not need a closing tag. (<br> alone!)
+`<br>` stands for Break (line break). It moves the next text to a new line without starting a new paragraph. It also does not need a closing tag. (<br> alone!)
 ```
 <p>Hello <br>How are you Joshi? <br> Have a nice day! </p>
 ```
