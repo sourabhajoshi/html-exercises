@@ -195,7 +195,6 @@ A paragraph always starts on a new line, and browsers automatically add some whi
 **<pre> : Preformatted Text**
 
 It is used to display text exactly as you type it. This means:Spaces and line breaks are preserved.The text is shown in a monospace font (like code). It’s typically used for displaying things like code snippets or ASCII art.
-
 ```
 <pre>
 This is some preformatted text.
@@ -203,9 +202,7 @@ This is some preformatted text.
   Useful for displaying code or ASCII art.
 </pre>
 ```
-
 ----
-
 #### **HTML Styles**
 
 HTML Styles allow you to change the look and feel of your web page, things like color, font size, background, margins, and more.
@@ -253,7 +250,6 @@ You can add styles in the head section of your HTML document using the <style> t
 <body>
   <p>This paragraph is green with 18px font size.</p>
 </body>
-
 ```
 
 **3. External Styles**
@@ -284,18 +280,17 @@ p{
 | `border`             | Adds a border around an element                          | `border: 1px solid black;`     |
 
 ---
-
 ----
 
 #### **HTML Text Formatting**
 
 In HTML, text formatting refers to how text appears on the web page. You can modify its style, structure, and layout using various HTML tags and attributes.
 
-**1. <b> : Bold Text**
+**1. `<b>` : Bold Text**
 
   Makes the text bold. ``` <b>This text is bold.</b>```
 
-**2. <strong> : Strong Emphasis (Bold)**
+**2. `<strong>` : Strong Emphasis (Bold)**
 
 Indicates strong emphasis, typically shown as bold in browsers.
 <strong> is semantically meaningful and indicates importance, while <b> just makes text bold without any meaning. ```<strong>This is strongly emphasized text (bold).</strong>```
