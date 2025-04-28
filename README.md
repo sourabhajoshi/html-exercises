@@ -192,7 +192,7 @@ A paragraph always starts on a new line, and browsers automatically add some whi
 <p>Hello <br>How are you Joshi? <br> Have a nice day! </p>
 ```
 
-**<pre> : Preformatted Text**
+**`<pre>` : Preformatted Text**
 
 It is used to display text exactly as you type it. This means:Spaces and line breaks are preserved.The text is shown in a monospace font (like code). It’s typically used for displaying things like code snippets or ASCII art.
 ```
@@ -203,6 +203,7 @@ This is some preformatted text.
 </pre>
 ```
 ----
+
 #### **HTML Styles**
 
 HTML Styles allow you to change the look and feel of your web page, things like color, font size, background, margins, and more.
