@@ -5,9 +5,9 @@ HTML stands for HyperText Markup Language.
 - Markup Language = a way to mark or label parts of a page (like headings, paragraphs, images).
 
 Think of HTML as the skeleton of a webpage.
-It tells the browser what to show — like "this is a heading", "this is a paragraph", "this is an image". Use tags (like <h1>, <p>, <img>) to mark different parts.
+It tells the browser what to show — like &quot;this is a heading&quot;, &quot;this is a paragraph&quot;, &quot;this is an image&quot;. Use tags (like &lt;h1&gt;, &lt;p&gt;, &lt;img&gt;) to mark different parts.
 
-Note : HTML = "How To Make Layout". It helps lay out the structure of a webpage.
+Note: HTML = &quot;How To Make Layout&quot;. It helps lay out the structure of a webpage.
 
 #### **HTML Document**
 An HTML document is just a file (usually ending with .html) that contains HTML code.
