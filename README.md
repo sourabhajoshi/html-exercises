@@ -592,3 +592,161 @@ project/
 <img src="../assets/imgs/profile.jpg" alt="Profile Picture">
 
 ```
+----
+
+#### **HTML Favicon**
+
+A favicon (short for "favorite icon") is a small icon associated with a particular website, typically displayed in: Browser tabs, Bookmarks, Address bar (in some browsers) and Shortcut links on mobile home screens.
+
+Purpose of a Favicon
+
+- Brand recognition: Acts like a website’s logo.
+- Usability: Helps users visually identify a site among many open tabs or bookmarks.
+- Professionalism: Makes your site look complete and polished.
+
+You define a favicon using the `<link>` tag inside the `<head>` section of your HTML document.
+```
+<!-- syntax -->
+<link rel="icon" href="/path-to-your/favicon.ico" type="image/x-icon">
+```
+
+Modern websites often include multiple formats and sizes for broad compatibility:
+```
+<!-- Standard favicon -->
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+<!-- PNG format -->
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+
+<!-- Apple Touch Icon (iOS bookmark) -->
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+
+<!-- Web Manifest (for PWA support) -->
+<link rel="manifest" href="/site.webmanifest">
+```
+
+Example: Full HTML with Favicon
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Website</title>
+
+  <!-- Favicons -->
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+</head>
+<body>
+  <h1>Welcome to My Website</h1>
+</body>
+</html>
+```
+----
+
+#### **HTML Page Title**
+
+The HTML Page Title is the text that appears in the browser tab, search engine results, and when bookmarking a page. It’s defined using the `<title>` tag inside the `<head>` section of an HTML document.
+
+```
+<!-- syntax -->
+<title>Your Page Title</title>
+```
+
+Example : Show My Portfolio in browser tab
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Portfolio</title>
+</head>
+<body>
+  <h1>Welcome to My Portfolio</h1>
+</body>
+</html>
+```
+----
+
+#### **HTML table**
+
+An HTML table is used to display data in rows and columns, similar to a spreadsheet.
+
+```
+<table>
+  <caption>Student Grades</caption>
+  <tr>
+    <th>Name</th>
+    <th>Subject</th>
+    <th>Grade</th>
+  </tr>
+  <tr>
+    <td>Joshi</td>
+    <td>CS</td>
+    <td>A</td>
+  </tr>
+  <tr>
+    <td>Sourabha</td>
+    <td>Science</td>
+    <td>B</td>
+  </tr>
+</table>
+```
+
+dHTML Table Tags and Their Purpose
+
+| Tag        | Purpose                                    |
+|------------|--------------------------------------------|
+| `<table>`  | Defines the table                          |
+| `<tr>`     | Table row                                  |
+| `<th>`     | Table header cell (bold and centered)      |
+| `<td>`     | Table data cell (regular cell)             |
+| `<caption>`| (Optional) Adds a title above the table    |
+
+**HTML Table Borders**
+
+In HTML, borders help visually separate cells and improve the readability of tables. You can add borders to tables using either HTML attributes (deprecated) or CSS (recommended).
+
+Method 1: Using HTML border Attribute. It is old method
+```
+<table border="1">
+  <tr>
+    <th>Name</th>
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Alice</td>
+    <td>25</td>
+  </tr>
+</table>
+```
+This adds a basic black border around table cells. border="1" sets the border width to 1 pixel. You can use values like border="2" for thicker borders.
+
+Method 2: Using CSS (Recommended)
+```
+<style>
+  table {
+    border-collapse: collapse;
+    width: 50%;
+  }
+
+  th, td {
+    border: 1px solid #333;
+    padding: 8px;
+  }
+</style>
+
+<table>
+  <tr>
+    <th>Product</th>
+    <th>Price</th>
+  </tr>
+  <tr>
+    <td>Pen</td>
+    <td>$1.00</td>
+  </tr>
+</table>
+```
