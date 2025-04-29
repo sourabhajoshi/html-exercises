@@ -750,3 +750,93 @@ Method 2: Using CSS (Recommended)
   </tr>
 </table>
 ```
+**1. How to Add a Border**
+
+You can add borders to a table and its cells using the border property in CSS.
+```
+table, th, td {
+  border: 1px solid black;
+}
+
+<!-- 
+  table applies a border around the entire table.
+  th, td apply borders around each header and data cell.
+  1px solid black: sets the border thickness, style, and color.
+ -->
+```
+
+**2. Collapsed Table Borders**
+
+By default, browsers show double borders where cells meet. To fix that, use border-collapse.
+```
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+<!-- border-collapse: collapse; removes space between borders, so adjacent cells share a single border. -->
+```
+
+**3. Style Table Borders (Invisible-Like Look)**
+
+You can make borders blend into the background for a softer look.
+```
+table, th, td {
+  border: 1px solid white;        /* white border (same as background) */
+  border-collapse: collapse;
+}
+
+th, td {
+  background-color: #96D4D4;      /* pastel background */
+}
+
+<!-- This gives the illusion of cells floating without visible borders -->
+```
+
+**4. Round Table Borders**
+
+We can create rounded corners using the border-radius property.
+```
+table, th, td {
+  border: 1px solid black;
+  border-radius: 10px;
+}
+<!-- border-radius adds curvature to corners. -->
+
+th, td {
+  border: 1px solid black;
+  border-radius: 10px;
+}
+<!-- For individual cells only (not the outer table border), omit table from the selector -->
+```
+
+**5. Dotted and Styled Borders**
+
+he border-style property lets you define the appearance of the border : 
+dotted
+dashed
+solid
+double
+groove
+ridge
+inset
+outset
+none
+hidden
+```
+th, td {
+  border: 2px dotted black;
+}
+```
+
+**6. Border Color**
+
+Customize the color of the borders using border-color.
+```
+th, td {
+  border: 1px solid;
+  border-color: #96D4D4;
+}
+```
+
+
