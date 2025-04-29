@@ -293,7 +293,7 @@ In HTML, text formatting refers to how text appears on the web page. You can mod
 **2. `<strong>` : Strong Emphasis (Bold)**
 
 Indicates strong emphasis, typically shown as bold in browsers.
-<strong> is semantically meaningful and indicates importance, while <b> just makes text bold without any meaning. ```<strong>This is strongly emphasized text (bold).</strong>```
+`<strong>` is semantically meaningful and indicates importance, while `<b>` just makes text bold without any meaning. ```<strong>This is strongly emphasized text (bold).</strong>```
 
 **3. `<i>` : Italic Text**
 
