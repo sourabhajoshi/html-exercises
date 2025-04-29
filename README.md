@@ -301,7 +301,7 @@ Makes the text italic. ```<i>This text is italic.</i>```
 
 **4. `<em>` : Emphasized Text (Italic)**
 
-Indicates emphasis, usually displayed in italic in browsers.<em> conveys meaning (emphasis), while <i> just styles the text. ```<em>This text is emphasized (italic).</em>```
+Indicates emphasis, usually displayed in italic in browsers.`<em>` conveys meaning (emphasis), while `<i>` just styles the text. ```<em>This text is emphasized (italic).</em>```
 
 **5. `<u>` : Underlined Text**
 
