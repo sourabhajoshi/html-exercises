@@ -1591,9 +1591,35 @@ Media queries adjust the styles based on the viewport size.
 </style>
 ```
 
+----
 
+#### **HTML Semantic Elements**
 
+A semantic element clearly describes its meaning to both the browser and the developer.
 
+These elements give structure to a web page, making it easier for developers, browsers, and assistive technologies (like screen readers) to understand the content.
 
+For example, `<header>`, `<footer>`, `<article>`, and `<section>` indicate the type of content they contain.
 
- 
+**Semantic Tags**
+
+This document provides a description of various semantic HTML5 tags and their purposes.
+
+| Tag         | Description                                                                 |
+|-------------|-----------------------------------------------------------------------------|
+| `<article>` | Defines independent, self-contained content                                 |
+| `<aside>`   | Defines content aside from the page content                                 |
+| `<details>` | Defines additional details that the user can view or hide                   |
+| `<figcaption>` | Defines a caption for a `<figure>` element                              |
+| `<figure>`  | Specifies self-contained content, like illustrations, diagrams, photos, code listings, etc. |
+| `<footer>`  | Defines a footer for a document or section                                  |
+| `<header>`  | Specifies a header for a document or section                                |
+| `<main>`    | Specifies the main content of a document                                    |
+| `<mark>`    | Defines marked/highlighted text                                             |
+| `<nav>`     | Defines navigation links                                                    |
+| `<section>` | Defines a section in a document                                             |
+| `<summary>` | Defines a visible heading for a `<details>` element                         |
+| `<time>`    | Defines a date/time                                                         |
+
+----
+
