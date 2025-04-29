@@ -281,7 +281,6 @@ p{
 | `border`             | Adds a border around an element                          | `border: 1px solid black;`     |
 
 ---
-----
 
 #### **HTML Text Formatting**
 
@@ -296,39 +295,39 @@ In HTML, text formatting refers to how text appears on the web page. You can mod
 Indicates strong emphasis, typically shown as bold in browsers.
 <strong> is semantically meaningful and indicates importance, while <b> just makes text bold without any meaning. ```<strong>This is strongly emphasized text (bold).</strong>```
 
-**3. <i> : Italic Text**
+**3. `<i>` : Italic Text**
 
 Makes the text italic. ```<i>This text is italic.</i>```
 
-**4. <em> : Emphasized Text (Italic)**
+**4. `<em>` : Emphasized Text (Italic)**
 
 Indicates emphasis, usually displayed in italic in browsers.<em> conveys meaning (emphasis), while <i> just styles the text. ```<em>This text is emphasized (italic).</em>```
 
-**5. <u> : Underlined Text**
+**5. `<u>` : Underlined Text**
 
 Underlines the text. ```<u>This text is underlined.</u>```
 
-**6. <mark> : Highlighted Text**
+**6. `<mark>` : Highlighted Text**
 
 Highlights the text by changing the background color. ```<mark>This text is highlighted.</mark>```.
 
-**7. <small> : Smaller Text**
+**7. `<small>` : Smaller Text**
 
 Makes the text smaller than the surrounding text. ```<small>This text is smaller.</small>```
 
-**8. <sub> : Subscript Text**
+**8. `<sub>` : Subscript Text**
 
 Displays text as subscript (below the baseline). ```H<sub>2</sub>O```. This will display H₂O where the "2" is subscripted.
 
-**9. <sup> : Superscript Text**
+**9. `<sup>` : Superscript Text**
 
 Displays text as superscript (above the baseline). ```E = mc<sup>2</sup>```. This will display E = mc², with the "2" as a superscript.
 
-**10. <del> : Deleted Text**
+**10. `<del>` : Deleted Text**
 
 Indicates deleted text (typically shown with a strikethrough). ```<del>This text is deleted.</del>```. 
 
-**11. <ins> — Inserted Text**
+**11. `<ins>` — Inserted Text**
 
 Indicates inserted text (typically shown with an underline). ```<ins>This text is inserted.</ins>```.
 
@@ -438,7 +437,7 @@ HTML comments can be used to temporarily hide content. While it is not a method 
 
 #### **HTML Links**
 
-HTML links are created using the <a> (anchor) element. The <a> element is used to define hyperlinks, which allow users to click and navigate to another webpage, section of the same page, or external resource.
+HTML links are created using the <a> (anchor) element. The `<a>` element is used to define hyperlinks, which allow users to click and navigate to another webpage, section of the same page, or external resource.
 
 By default, links will appear as follows in all browsers:
 - An unvisited link is underlined and blue
