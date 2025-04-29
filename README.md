@@ -521,3 +521,74 @@ Example of Multiple Links
 </body>
 </html>
 ```
+----
+
+#### **HTML Images**
+
+In HTML, images are used to display pictures on a webpage. This is done using the `<img>` tag.
+
+The `<img>` tag is self-closing (it doesn’t have a closing `</img>`). It must include the following key attributes: src, alt, width and height.
+
+```
+<img src="logo.png" alt="Company Logo" width="200" height="100">
+```
+| Attribute | Description |
+|-----------|-------------|
+| `src`     | (source) The URL or path to the image file |
+| `alt`     | (alternative text) Describes the image if it cannot be displayed or for screen readers |
+| `width`   | Sets the width of the image (in pixels or %) |
+| `height`  | Sets the height of the image (in pixels or %) |
+
+The width, height, and style attributes are all valid in HTML.
+However, we suggest using the style attribute. It prevents styles sheets from changing the size of images. 
+
+```
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      img {
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+
+  <img src="html5.gif" alt="HTML5 Icon" width="128" height="128">
+
+  <img src="html5.gif" alt="HTML5 Icon" style="width:128px;height:128px;">
+
+  </body>
+</html>
+```
+
+**Image in a Subfolder**
+
+To display images located in another folder in HTML, you just need to provide the correct relative or absolute path in the src attribute of the <img> tag.
+
+```
+1. Assume your folder structure
+project/
+├── index.html
+└── images/
+    └── logo.png
+<img src="images/logo.png" alt="Company Logo" width="200">
+
+2. If the image is in a folder above your HTML file
+project/
+├── images/
+│   └── logo.png
+└── pages/
+    └── about.html
+<img src="../images/logo.png" alt="Company Logo">
+
+3. Image in a Different Folder
+project/
+├── assets/
+│   └── imgs/
+│       └── profile.jpg
+└── public/
+    └── index.html
+<img src="../assets/imgs/profile.jpg" alt="Profile Picture">
+
+```
