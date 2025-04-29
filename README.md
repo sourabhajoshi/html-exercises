@@ -838,5 +838,129 @@ th, td {
   border-color: #96D4D4;
 }
 ```
+**HTML Table Sizes**
 
+In HTML, you can control the size of a table, including its width, height, and the dimensions of its rows and columns, using either HTML attributes (deprecated) or CSS (recommended).
+
+You can set the table size using the width and height CSS properties.
+```
+<style>
+  table {
+    width: 80%;         /* Table takes 80% of the page width */
+    height: 200px;      /* Fixed table height */
+  }
+
+  th, td {
+    height: 50px;       /* Each cell has a height of 50px */
+    width: 100px;       /* Each cell has a width of 100px */
+  }
+</style>
+
+<table border="1">
+  <tr>
+    <th>Name</th>
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Alice</td>
+    <td>25</td>
+  </tr>
+</table>
+```
+
+**HTML Table Headers**
+
+In HTML, a table header is used to label the rows or columns in a table. It helps people understand what each part of the table means.
+
+`<th>` : Table Header Cell
+
+The `<th>` tag is used to define header cells in an HTML table. These are usually bold and center-aligned by default.
+```
+<table border="1">
+  <tr>
+    <th>Name</th>
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Alice</td>
+    <td>25</td>
+  </tr>
+</table>
+```
+
+**HTML Table Colspan & Rowspan**
+
+colspan (short for "column span") is an HTML attribute used in a `<td>` or `<th>` tag to make a cell stretch across multiple columns. Joins multiple columns into one cell (side by side).
+
+Example : colspan – Merge Columns
+```
+<table border="1">
+  <tr>
+    <th colspan="2">User Info</th>
+  </tr>
+  <tr>
+    <td>Name</td>
+    <td>Alice</td>
+  </tr>
+</table>
+```
+
+rowspan (short for "row span") is an HTML attribute used to make a cell stretch across multiple rows. Joins multiple rows into one cell (top to bottom).
+
+Example : rowspan – Merge Rows
+```
+<table border="1">
+  <tr>
+    <th rowspan="2">Name</th>
+    <td>Alice</td>
+  </tr>
+  <tr>
+    <td>Bob</td>
+  </tr>
+</table>
+```
+----
+
+#### **HTML Lists**
+
+HTML provides different types of lists to display grouped items. Lists are useful for organizing content clearly and cleanly.
+
+Types of Lists in HTML Ordered List, Unordered List and Description List.
+
+**HTML Unordered Lists**
+
+An unordered list in HTML is a collection of list items that appear without any specific order. Each item is typically marked with a bullet point (•) by default.
+- HTML Tag: `<ul>` (unordered list)
+- List items inside: `<li>` (list item)
+
+Choose List Item Marker :
+
+You can customize bullet styles using the CSS list-style-type property: disc, circle, square and none.
+
+You can also use custom images with list-style-image or even emojis via ::before pseudo-element in CSS.
+```
+<h3>Shopping List</h3>
+<ul>
+  <li>Milk</li>
+  <li>Bread</li>
+  <li>Eggs</li>
+</ul>
+```
+
+**HTML Ordered Lists**
+
+An ordered list in HTML is used to display a list of items in a specific sequence or order. Each item is numbered automatically by the browser.
+- HTML Tag: `<ol>` (ordered list)
+- List items inside: `<li>` (list item)
+
+Choose Numbering Style
+
+You can change the numbering style using the type attribute in `<ol>` or using CSS. : A, I, i, a, 1
+```
+<ol type="A">
+  <li>First</li>
+  <li>Second</li>
+  <li>Third</li>
+</ol>
+```
 
