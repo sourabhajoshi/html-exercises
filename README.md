@@ -227,7 +227,7 @@ You can add styles directly to an element using the style attribute. It’s call
 
 **2. Internal Styles**
 
-You can add styles in the head section of your HTML document using the <style> tag. These styles will apply to the whole page.
+You can add styles in the head section of your HTML document using the `<style>` tag. These styles will apply to the whole page.
 
 ```
 <!-- syntax -->
@@ -1622,4 +1622,3 @@ This document provides a description of various semantic HTML5 tags and their pu
 | `<time>`    | Defines a date/time                                                         |
 
 ----
-
