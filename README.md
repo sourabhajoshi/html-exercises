@@ -1622,3 +1622,5 @@ This document provides a description of various semantic HTML5 tags and their pu
 | `<time>`    | Defines a date/time                                                         |
 
 ----
+
+#### **HTML Forms**
