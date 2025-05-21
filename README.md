@@ -1,4 +1,4 @@
-# HTML / html5
+# HTML
 HTML stands for HyperText Markup Language.
 
 - HyperText = links between pages.
