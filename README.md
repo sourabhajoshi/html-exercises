@@ -1,5 +1,5 @@
 # HTML
-HTML stands for HyperText Markup Language
+HTML stands for HyperText Markup Language.
 
 - HyperText = links between pages.
 - Markup Language = a way to mark or label parts of a page (like headings, paragraphs, images).
