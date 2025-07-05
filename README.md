@@ -52,7 +52,6 @@ An HTML element is defined by a start tag, some content, and an end tag.
 Never skip the end tag, some elemets display correctly even if we forget. However, never rely on this Unexpected results and errors may occur if you forget the end tag.
 
 HTML tags are not case sensitive, `<P> means the same as <p>`. Recommends lowercase in HTML.
-
 ```
 <p>Hello, world!</p>
 ```
