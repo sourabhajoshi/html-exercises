@@ -10,7 +10,7 @@ It tells the browser what to show — like &quot;this is a heading&quot;, &quot;
 
 Note: HTML = &quot;How To Make Layout&quot;. It helps lay out the structure of a webpage.
 
-#### **HTML Document**
+#### **HTML Document**  
 An HTML document is just a file (usually ending with .html) that contains HTML code.
 It is the full page that the browser reads to show a website.
 
